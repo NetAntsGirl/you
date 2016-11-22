@@ -1,0 +1,41 @@
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td {
+    margin: 0;
+    padding: 0
+}
+.clear{*zoom:1}
+.clear:after {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    display: block;
+    visibility: hidden;
+    content: "."
+}
+div{box-sizing: border-box;}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+fieldset,img,iframe {border: 0}
+address,cite,dfn,em,var,i {font-style: normal}
+li{list-style: none}
+caption,th{text-align: left}
+h1,h2,h3,h4,h5,h6 {font-size: 100%}
+sup {vertical-align: text-top}
+sub {vertical-align: text-bottom}
+body {
+    font: 12px/1.5 tahoma,\5FAE\8F6F\96C5\9ED1;
+    color: #666;
+    background: #f8f8f8;
+}
+a{text-decoration: none; color: #666;}
+a:hover {
+    color: #e60012;
+    text-decoration: none
+}
+input,label,form {
+    padding: 0;
+    margin: 0
+}
+select,textarea,img,fieldset,input {vertical-align: middle}
+dl,ul,dt,dd,input {font: 12px/20px tahoma,å¾®è½¯é›…é»‘}
